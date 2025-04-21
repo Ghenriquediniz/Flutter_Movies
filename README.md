@@ -21,23 +21,6 @@ Este projeto é um desafio técnico em Flutter que consiste em consumir a API do
 - Parâmetros obrigatórios:  
   `?api_key=YOUR_API_KEY&language=pt-BR`
 
-Crie uma conta gratuita em [The Movie DB](https://www.themoviedb.org/) para obter sua API key.
-
-## Tecnologias Utilizadas
-
-- Flutter
-- `http` (requisições)
-- `provider` ou `riverpod` (gerenciamento de estado)
-- `cached_network_image` (carregamento de imagens)
-- `flutter_dotenv` (variáveis de ambiente)
-
-## Extras (opcional)
-
-- Paginação infinita
-- Animações entre telas
-- Placeholder e carregamento de dados
-- Testes unitários e de widget
-
 ## Layout
 
 - Figma: [Desafio Flutter Traux](https://www.figma.com/file/b1qcGS8n2NJ3koOlgu0EnF/Desafio-Flutter-Traux?node-id=0%3A1)
