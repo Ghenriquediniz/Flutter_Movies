@@ -1,28 +1,43 @@
-🎯 Desafio Flutter - App de Filmes
-📱 Funcionalidades
-Tela 1: Listagem de filmes populares (imagem, título e nota).
+# Desafio Flutter - App de Filmes
 
-Tela 2: Detalhes do filme (imagem, título, sinopse, data, nota, gêneros).
+## Descrição
 
-Navegação entre as telas.
+Este projeto é um desafio técnico em Flutter que consiste em consumir a API do The Movie DB e exibir os filmes populares em uma interface baseada no layout do Figma.
 
-🔗 API
-Base: https://api.themoviedb.org/3
+## Funcionalidades
 
-Endpoints:
+- Tela de listagem de filmes populares:
+  - Exibe imagem do pôster, título e nota.
+  - Navegação para a tela de detalhes.
+- Tela de detalhes do filme:
+  - Exibe pôster grande, título, sinopse, data de lançamento, nota média e gêneros.
 
-Filmes populares: /movie/popular
+## API
 
-Detalhes do filme: /movie/{movie_id}
+- Base URL: `https://api.themoviedb.org/3`
+- Endpoints utilizados:
+  - Listar filmes populares: `/movie/popular`
+  - Detalhes do filme: `/movie/{movie_id}`
+- Parâmetros obrigatórios:  
+  `?api_key=YOUR_API_KEY&language=pt-BR`
 
-Use ?api_key=YOUR_API_KEY&language=pt-BR nos endpoints.
+Crie uma conta gratuita em [The Movie DB](https://www.themoviedb.org/) para obter sua API key.
 
-🛠️ Tecnologias sugeridas
-http, provider ou riverpod, cached_network_image, flutter_dotenv
+## Tecnologias Utilizadas
 
-💡 Extras (opcional)
-Paginação, animações, loaders e testes.
+- Flutter
+- `http` (requisições)
+- `provider` ou `riverpod` (gerenciamento de estado)
+- `cached_network_image` (carregamento de imagens)
+- `flutter_dotenv` (variáveis de ambiente)
 
-🎨 Layout:
-Figma - Desafio Flutter Traux
+## Extras (opcional)
 
+- Paginação infinita
+- Animações entre telas
+- Placeholder e carregamento de dados
+- Testes unitários e de widget
+
+## Layout
+
+- Figma: [Desafio Flutter Traux](https://www.figma.com/file/b1qcGS8n2NJ3koOlgu0EnF/Desafio-Flutter-Traux?node-id=0%3A1)
