@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../service/movie_service.dart';
 import '../models/movie.dart';
-import 'movie_detal_page.dart'; // 👈 importa aqui
+import 'movie_detal_page.dart'; 
 
 class PopularMoviesPage extends StatelessWidget {
   final MovieService movieService = MovieService();
