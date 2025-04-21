@@ -1,16 +1,27 @@
-# movie_list
+Desafio Flutter - App de Filmes
+Funcionalidades
+Tela 1: Listagem de filmes populares (imagem, título e nota).
 
-A new Flutter project.
+Tela 2: Detalhes do filme (imagem, título, sinopse, data, nota, gêneros).
 
-## Getting Started
+Navegação entre as telas.
 
-This project is a starting point for a Flutter application.
+API
+Base: https://api.themoviedb.org/3
 
-A few resources to get you started if this is your first Flutter project:
+Endpoints:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Filmes populares: /movie/popular
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Detalhes do filme: /movie/{movie_id}
+
+Use ?api_key=YOUR_API_KEY&language=pt-BR nos endpoints.
+
+Tecnologias sugeridas
+http, provider ou riverpod, cached_network_image, flutter_dotenv
+
+Extras (opcional)
+Paginação, animações, loaders e testes.
+
+Layout
+Figma: Desafio Flutter Traux
